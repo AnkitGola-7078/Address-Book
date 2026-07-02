@@ -24,7 +24,7 @@ class Contacts{
         this.fistName = fistName;
     }
 
-
+    
     public String getLastName() {
         return lastName;
     }
@@ -64,7 +64,7 @@ class Contacts{
         this.phoneNumber = phoneNumber;
     }
 
-    
+
     public String getEmail() {
         return email;
     }
