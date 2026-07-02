@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 public class AddressBookMain {
     // UC2: Store contacts
     private ArrayList<ContactPerson> contacts = new ArrayList<>();
@@ -19,9 +20,7 @@ public class AddressBookMain {
         System.out.print("Enter City: ");
         String city = sc.nextLine();
 
-        System.out.print("Enter State: ");
-        String state = sc.nextLine();
-
+     
         System.out.print("Enter Zip: ");
         String zip = sc.nextLine();
 
