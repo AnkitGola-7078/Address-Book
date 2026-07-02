@@ -72,5 +72,18 @@ class Contacts{
         this.email = email;
     }
 
+     @Override
+     public String toString() {
+        return "First Name: " + firstName +
+               ", Last Name: " + lastName +
+                ", Address: " + address +
+                ", City: " + city +
+                ", State: " + state +
+                 ", Zip: " + zip +
+               ", Phone Number: " + phoneNumber +
+                ", Email: " + email;
+     }
+
+
     
 }
